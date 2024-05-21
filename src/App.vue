@@ -1,23 +1,23 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/header.vue";
+import SeedraSail from "./components/seedra_sail.vue";
+import Sell from "./components/sell.vue";
+import Products from "./components/products.vue";
+import Product from "./components/product.vue";
+import Blog from "./components/blog.vue";
+import Helga from "./components/helga.vue";
+import Footer from "./components/footer.vue";
 </script>
 
 <template>
-  
-  <HelloWorld msg="Vite + Vue" />
+  <Header></Header>
+  <SeedraSail></SeedraSail>
+  <Sell></Sell>
+  <Products></Products>
+  <Product></Product>
+  <Blog></Blog>
+  <Helga></Helga>
+  <Footer></Footer>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<style scoped></style>
