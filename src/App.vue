@@ -7,6 +7,7 @@ import Product from "./components/product.vue";
 import Blog from "./components/blog.vue";
 import Helga from "./components/helga.vue";
 import Footer from "./components/footer.vue";
+import Slide from "./components/slide.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Footer from "./components/footer.vue";
   <Products></Products>
   <Product></Product>
   <Blog></Blog>
+  <Slide></Slide>
   <Helga></Helga>
   <Footer></Footer>
 </template>

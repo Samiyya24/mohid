@@ -45,7 +45,7 @@
               alt=""
             />
             <input
-              class="border border-[#EFEFEF] px-12 py-3 rounded-full"
+              class="focus:outline-none border border-[#EFEFEF] px-12 py-3 rounded-full"
               type="text"
               placeholder="Search"
             />
