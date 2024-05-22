@@ -18,8 +18,8 @@ import Slide from "./components/slide.vue";
   <Product></Product>
   <Blog></Blog>
   <Slide></Slide>
-  <!-- <Helga></Helga> -->
-  <!-- <Footer></Footer>  -->
+  <Helga></Helga>
+  <Footer></Footer>
 </template>
 
 <style scoped></style>

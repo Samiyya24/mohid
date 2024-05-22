@@ -1,12 +1,12 @@
 <template>
-  <div class="container">
+  <div class="container ">
     <h1 class="text-4xl font-bold flex justify-center py-16">
       What out clients say
     </h1>
   </div>
-  <Carousel :itemsToShow="3.95" :wrapAround="true" :transition="500">
+  <Carousel :itemsToShow="3.95" :wrapAround="true" :transition="500" class="max-md:hidden">
     <Slide v-for="slide in 10" :key="slide">
-      <div class="carousel__item">
+      <div class="carousel__item max-w-[500px]">
         <div class="border border-[#EFEFEF] py-11 px-8 rounded-xl">
           <div class="flex items-center gap-6 mb-7">
             <img src="../assets/img/imgs/carousel.png" alt="" />
@@ -52,11 +52,11 @@ export default defineComponent({
 
 <style scoped>
 .carousel__slide {
-  padding: 5px;
+  padding: 10px;
 }
 
 .carousel__viewport {
-  perspective: 2000px;
+  perspective: 20000px;
 }
 
 .carousel__track {

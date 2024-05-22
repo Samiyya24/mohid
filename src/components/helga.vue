@@ -1,9 +1,11 @@
 <template>
   <div>
     <div class="container">
-      <div class="flex items-center justify-between gap-28 py-20 shadow-inner">
+      <div
+        class="md:flex items-center justify-between gap-28 py-20 shadow-inner"
+      >
         <div>
-          <h3 class="text-4xl font-bold mb-12">
+          <h3 class="md:text-4xl text-2xl font-bold mb-12">
             Seedra helps to grow fast and efficiant
           </h3>
           <p class="font-light text-[#1F2533] mb-10">
@@ -26,7 +28,11 @@
             produce this American-made product
           </p>
         </div>
-        <img class="max-w-[600px]" src="../assets/img/imgs/helga.png" alt="" />
+        <img
+          class="md:max-w-[600px]"
+          src="../assets/img/imgs/helga.png"
+          alt=""
+        />
       </div>
     </div>
   </div>

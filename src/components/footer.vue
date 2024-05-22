@@ -1,23 +1,40 @@
 <template>
   <div class="container">
-    <footer class="py-10">
-      <ul class="flex divide-x items-center py-7">
-        <li class="px-8 text-sm text-[#70737C] hover:text-[#359740]">
+    <footer class="py-10 max-md:text-center">
+      <img
+        class="md:hidden mx-auto"
+        src="../assets/img/icons/logo.svg"
+        alt=""
+      />
+      <ul class="md:flex md:divide-x divide-y items-center py-7">
+        <li
+          class="max-md:py-2 px-8 text-sm text-[#70737C] hover:text-[#359740]"
+        >
           <a href="#">ALL PRODUCTS</a>
         </li>
-        <li class="px-8 text-sm text-[#70737C] hover:text-[#359740]">
+        <li
+          class="max-md:py-2 px-8 text-sm text-[#70737C] hover:text-[#359740]"
+        >
           <a href="#">ABOUT SEEDRA</a>
         </li>
-        <li class="px-8 text-sm text-[#70737C] hover:text-[#359740]">
+        <li
+          class="max-md:py-2 px-8 text-sm text-[#70737C] hover:text-[#359740]"
+        >
           <a href="#">OUR BLOG</a>
         </li>
-        <li class="px-8 text-sm text-[#70737C] hover:text-[#359740]">
+        <li
+          class="max-md:py-2 max-md:hidden px-8 text-sm text-[#70737C] hover:text-[#359740]"
+        >
           <a href="#"><img src="../assets/img/icons/logo.svg" alt="" /></a>
         </li>
-        <li class="px-8 text-sm text-[#70737C] hover:text-[#359740]">
+        <li
+          class="max-md:py-2 px-8 text-sm text-[#70737C] hover:text-[#359740]"
+        >
           <a href="#">Terms&Conditions</a>
         </li>
-        <li class="px-8 text-sm text-[#70737C] hover:text-[#359740]">
+        <li
+          class="max-md:py-2 px-8 text-sm text-[#70737C] hover:text-[#359740]"
+        >
           <a href="#">Privacy Policy</a>
         </li>
       </ul>
