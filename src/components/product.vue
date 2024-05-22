@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="grid grid-cols-3 gap-10 pb-14">
+    <div class="max-md:hidden md:grid md:grid-cols-3 md:gap-10 pb-14">
       <div class="relative border border-[#EFEFEF] rounded-md p-7">
         <img
           class="mb-7 max-w-[294px]"

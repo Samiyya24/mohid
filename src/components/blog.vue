@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="max-md:hidden">
     <div class="container">
       <div class="flex justify-between mb-10">
         <h2 class="text-5xl font-bold">Our blog.</h2>
