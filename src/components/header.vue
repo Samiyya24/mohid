@@ -1,7 +1,7 @@
 <template>
   <header class="bg-white shadow-lg z-20 fixed w-full top-0 left-0">
     <div class="container">
-      <nav class="py-4 flex items-center justify-between">
+      <nav class="py-4 flex items-center justify-between shadow-lg z-30">
         <a href="#"><img src="../assets/img/icons/logo.svg" alt="" /></a>
         <div class="flex items-center max-xl:hidden">
           <ul class="flex divide-x">
@@ -67,13 +67,13 @@
       </nav>
       <div>
         <div
-          :class="!show ? 'active' : ''"
-          id="blur"
-          class="md:hidden hidden bg-slate-200/50 fixed w-full h-screen backdrop-blur-md left-0"
+          :class="show ? 'close' : ''"
+          @click="toggle"
+          class="md:hidden bg-slate-200/10 fixed w-full h-screen backdrop-blur-md left-0"
         ></div>
         <div
           style="transition: 0.8s"
-          class="h-screen w-4/5 px-10 absolute bg-red-100 z-18 md:hidden -right-full"
+          class="h-screen w-4/5 px-10 absolute bg-white z-18 md:hidden border-t shadow-inner -right-full"
           :class="!show ? 'active' : ''"
         >
           <form action="" class="relative my-7">
@@ -218,7 +218,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 
 const show = ref(true);
 
