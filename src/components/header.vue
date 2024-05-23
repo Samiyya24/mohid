@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white shadow-lg z-15 fixed w-full top-0 left-0">
+  <header class="bg-white shadow-lg z-20 fixed w-full top-0 left-0">
     <div class="container">
       <nav class="py-4 flex items-center justify-between">
         <a href="#"><img src="../assets/img/icons/logo.svg" alt="" /></a>
@@ -69,7 +69,7 @@
         <div
           :class="!show ? 'active' : ''"
           id="blur"
-          class="md:hidden hidden bg-slate-200/50 fixed w-full h-screen backdrop-blur-md top-30 left-0"
+          class="md:hidden hidden bg-slate-200/50 fixed w-full h-screen backdrop-blur-md left-0"
         ></div>
         <div
           style="transition: 0.8s"
