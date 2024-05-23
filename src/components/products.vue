@@ -10,7 +10,7 @@
           View all (12)
         </button>
       </div>
-      <div class="overflow-scroll flex justify-between gap-2">
+      <div class="max:mdoverflow-scroll flex justify-between gap-2">
         <div
           class="flex border-[#EFEFEF] border py-3 gap-5 items-center px-5 rounded-lg"
         >

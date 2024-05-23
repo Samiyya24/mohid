@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <div class="overflow-scroll w-full">
-      <div class="flex w-[2200px] md:grid md:grid-cols-3 gap-10 pb-14">
+    <div class="max-md:overflow-scroll w-full">
+      <div class="flex max-md:w-[2200px] md:grid md:grid-cols-3 gap-10 pb-14">
         <div class="relative border border-[#EFEFEF] rounded-md p-7">
           <img
             class="mb-7 max-w-[294px]"

@@ -6,7 +6,7 @@
         src="../assets/img/icons/logo.svg"
         alt=""
       />
-      <ul class="md:flex md:divide-x divide-y items-center py-7">
+      <ul class="md:flex md:divide-x max-md:divide-y items-center py-7">
         <li
           class="max-md:py-2 px-8 text-sm text-[#70737C] hover:text-[#359740]"
         >
