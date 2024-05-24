@@ -28,11 +28,11 @@ export default {
       </h2>
       <h2 class="text-4xl font-bold">What People Say About Us</h2>
     </div>
-    <div class="flex py-16 justify-between gap-12">
+    <div class="lg:flex py-16 justify-between gap-12">
       <div
         v-for="(img, index) in images"
         :key="index"
-        class="flex items-center bg-[#F6F6F6] rounded-3xl p-10 gap-7 w-full"
+        class="flex items-center mb-3 bg-[#F6F6F6] rounded-3xl p-10 gap-7 w-full"
       >
         <img :src="img" :alt="userName[index]" />
         <div>

@@ -20,11 +20,11 @@ export default {
 
 <template>
   <div class="container mx-auto">
-    <div class="flex py-16 gap-5">
+    <div class="lg:flex py-16 gap-5">
       <div
         v-for="(img, index) in images"
         :key="index"
-        class="flex items-center bg-[#F6F6F6] rounded-3xl p-10 gap-7"
+        class="flex items-center mb-3 bg-[#F6F6F6] rounded-3xl p-10 gap-7"
       >
         <img :src="img" :alt="watchName[index]" />
         <div>

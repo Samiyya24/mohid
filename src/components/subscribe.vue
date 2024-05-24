@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div
-      class="flex items-center justify-around bg-[#F6F6F6] mt-20 py-10 rounded-3xl"
+      class="lg:flex items-center justify-around bg-[#F6F6F6] mt-20 py-10 rounded-3xl"
     >
       <div>
         <h1 class="text-4xl font-bold mb-2">Subscribe To Newsletter</h1>
