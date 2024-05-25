@@ -2,11 +2,7 @@
 export default {
   data() {
     return {
-      images: [
-        "../src/assets/img/apple.png",
-        "../src/assets/img/xiaomi.png",
-        "../src/assets/img/fitBit.png",
-      ],
+      images: ["/img/apple.png", "/img/xiaomi.png", "/img/fitBit.png"],
       watchName: ["Apple", "Xiaomi", "FitBit"],
       watchInfo: [
         "Apple is one of the most famous smart watches providing company.",

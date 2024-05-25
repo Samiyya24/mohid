@@ -2,12 +2,12 @@
   <header class="bg-black text-[#8B8E99]">
     <div class="container">
       <nav class="flex items-center justify-between py-6">
-        <a href="#"><img src="../assets/img/Logo.svg" alt="" /></a>
+        <a href="#"><img src="/img/Logo.svg" alt="" /></a>
 
         <ul class="max-md:hidden flex gap-7">
-          <li><a href="#">Home</a></li>
+          <li><a href="#" class="hover:text-white">Home</a></li>
           <li class="flex items-center">
-            <a href="#">Brands</a
+            <a href="#" class="hover:text-white">Brands</a
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="1em"
@@ -25,9 +25,9 @@
               </g>
             </svg>
           </li>
-          <li><a href="#">Recent Products</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#" class="hover:text-white">Recent Products</a></li>
+          <li><a href="#" class="hover:text-white">Contact</a></li>
+          <li><a href="#" class="hover:text-white">About</a></li>
         </ul>
 
         <div class="flex gap-4 text-white">
@@ -86,7 +86,7 @@
           <form action="" class="relative">
             <img
               class="absolute max-w-52 lg:top-4 top-3 left-2"
-              src="../assets/img/search.svg"
+              src="/img/search.svg"
               alt=""
             />
             <input
@@ -101,7 +101,7 @@
             </button>
           </form>
         </div>
-        <img class="max-lg:max-w-[300px]" src="../assets/img/soat.png" alt="" />
+        <img class="max-lg:max-w-[300px]" src="/img/soat.png" alt="" />
       </div>
     </div>
     <!-- 383638 -->

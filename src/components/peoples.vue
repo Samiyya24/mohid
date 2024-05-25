@@ -2,18 +2,18 @@
 export default {
   data() {
     return {
-      images: ["../src/assets/img/Hamza.png", "../src/assets/img/Hafiz.png"],
+      images: ["/img/Hamza.png", "/img/Hafiz.png"],
       userName: ["Hamza Faizi", "Hafiz Huzaifa"],
       userComent: [
         "Don’t waste time, just order! This is the best website to puschase smart watches.",
         "I’ve been purchasing smart watches of Mohid for a long time. All the products are good quality.",
       ],
       stars: [
-        "../src/assets/img/Vector.svg",
-        "../src/assets/img/Vector.svg",
-        "../src/assets/img/Vector.svg",
-        "../src/assets/img/Vector.svg",
-        "../src/assets/img/Vector.svg",
+        "/img/Vector.svg",
+        "/img/Vector.svg",
+        "/img/Vector.svg",
+        "/img/Vector.svg",
+        "/img/Vector.svg",
       ],
     };
   },
@@ -48,7 +48,7 @@ export default {
         </div>
       </div>
     </div>
-    <div class="flex gap-2 ml-[600px]">
+    <div class="hidden md:flex gap-2 ml-[600px]">
       <div class="w-5 h-5 bg-[#D9D9D9] hover:bg-[#3858D6] rounded-full"></div>
       <div class="w-5 h-5 bg-[#D9D9D9] hover:bg-[#3858D6] rounded-full"></div>
       <div class="w-5 h-5 bg-[#D9D9D9] hover:bg-[#3858D6] rounded-full"></div>

@@ -21,7 +21,7 @@
           </button>
         </form>
       </div>
-      <img src="../assets/img/apple1.png" alt="" />
+      <img src="/img/apple1.png" alt="" />
     </div>
   </div>
 </template>

@@ -3,19 +3,19 @@ export default {
   data() {
     return {
       images: [
-        "../src/assets/img/apple1.png",
-        "../src/assets/img/apple2.png",
-        "../src/assets/img/apple3.png",
-        "../src/assets/img/apple4.png",
-        "../src/assets/img/samsung.png",
-        "../src/assets/img/fitBitMax.png", 
+        "/img/apple1.png",
+        "/img/apple2.png",
+        "/img/apple3.png",
+        "/img/apple4.png",
+        "/img/samsung.png",
+        "/img/fitBitMax.png",
       ],
       stars: [
-        "../src/assets/img/Vector.svg",
-        "../src/assets/img/Vector.svg",
-        "../src/assets/img/Vector.svg",
-        "../src/assets/img/Vector.svg",
-        "../src/assets/img/Vector.svg",
+        "/img/Vector.svg",
+        "/img/Vector.svg",
+        "/img/Vector.svg",
+        "/img/Vector.svg",
+        "/img/Vector.svg",
       ],
       watchName: [
         "Apple Smart I",
