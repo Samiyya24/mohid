@@ -32,9 +32,9 @@ export default {
       <div
         v-for="(img, index) in images"
         :key="index"
-        class="flex items-center mb-3 bg-[#F6F6F6] rounded-3xl p-10 gap-7 w-full"
+        class="md:flex items-center mb-3 bg-[#F6F6F6] rounded-3xl p-10 gap-7 w-full"
       >
-        <img :src="img" :alt="userName[index]" />
+        <img :src="img" :alt="userName[index]" class="mb-2" />
         <div>
           <h3 class="text-2xl font-bold mb-2">{{ userName[index] }}</h3>
           <p class="text-[#8B8E99] font-medium mb-4 text-base max-w-[280px]">
