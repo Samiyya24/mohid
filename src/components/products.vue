@@ -8,7 +8,7 @@ export default {
         "../src/assets/img/apple3.png",
         "../src/assets/img/apple4.png",
         "../src/assets/img/samsung.png",
-        "../src/assets/img/fitBitMax.png",
+        "../src/assets/img/fitBitMax.png", 
       ],
       stars: [
         "../src/assets/img/Vector.svg",
