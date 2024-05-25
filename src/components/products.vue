@@ -90,7 +90,7 @@ export default {
 
           <div class="">
             <h3 class="text-2xl font-medium mb-2">{{ watchName[index] }}</h3>
-            <div class="flex gap-1 ml-32 mb-2.5">
+            <div class="flex gap-1 ml-28 md:ml-32 mb-2.5">
               <div v-for="(star, index) in stars" :key="index">
                 <img :src="star" alt="" />
               </div>
